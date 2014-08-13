@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#top {
+	width: 100%;	
+}
+
+#top-buttons {
+	margin: 1em 2em 1em 2em;
+	float: right;	
+	height: 30px;
+}
+
+#top-buttons a {
+	margin: 0 .75em;	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#top-buttons img {
+	height: 25px;
+}
+
+#top-buttons #sign-button{
+	display: inline-block;
+	height: 100%;
+	background-image: linear-gradient(#4387fd,#4683ea);
+	border-radius: 4px;
+	padding: 0 4px;
+	vertical-align: middle;
+}
+
+#sign-button a {
+	color: white;	
+	vertical-align: middle;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#center-page {
+	position: absolute;
+	top: 175px;
+	width: 100%;
+}
+
+#google-logo, #search {
+	margin: auto;
+	text-align: center;
+}
+
+#logo-image {
+	height: 95px;
+}
+
+#search {
+	text-align: center;
+	width: 560px;
+	margin-top: 20px;
+}
+
+#form {
+	border: 1px solid gray;	
+	height: 27px;
+}
+
+#form:hover {
+	border: 1.5px solid black;
+}
+
+#search input {
+	float: left;	
+	width: 521px;
+	height: 25px;
+	border: none;
+}
+
+#search img {
+	float: left;
+	width: 29px;	
+	height: 23px;
+	padding: 2px 0;
+}
+
+#search img:hover {
+	cursor: pointer;
+}
+
+#search-buttons {
+	clear: both;
+	margin: auto;
+	width: 300px;
+	text-align: center;	
+}
+
+#search-buttons div{	
+	margin: 10px 5px;
+	padding: 7px;
+	border: 1px solid #D7D8DB;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #EDEFF2;
+	border-radius: 3px;
+}
+
+#search-buttons div:hover {
+	box-shadow:	0px 1px 5px #ccc;
+	cursor: context-menu;
+}
+
+span {
+	font-family: Arial,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #EDEFF2;
+	border-top: 1px solid #D7D8DB;	
+}
+
+#footer a {
+	color: #5E5D5C;	
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 13px;
+	font-family: arial,sans-serif;
+}
+
+#footer1, #footer2 {
+	margin: 15px 20px;
+}
+
+#footer1 {
+	float:left;
+}
+
+#footer2 {
+	float:right;
+}
